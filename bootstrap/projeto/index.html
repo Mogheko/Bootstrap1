@@ -24,7 +24,7 @@
                     <li class="nav-item"><a class="nav-link active" href="">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
                     <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
                 </ul>
         </div>
     </div>
@@ -58,7 +58,7 @@
                     <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nulla ullamcorper non velit a tempor. 
                         In in mattis risus, auctor pretium orci. Etiam sagittis</p>
-                        <a class="btn btn-primary" href="#produto-1">ver produto</a>
+                        <a class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal-1">ver produto</a>
                 </div>
             </div>
             <div class="card">
@@ -118,6 +118,47 @@
         
     </div>
 </section>
+
+<div class="modal fade" id="modal-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+               <h5 class="modal-title">Produto-1</h5>
+                <button class="btn-close" data-bs-dismiss="modal"
+                arial-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h6>Confira o tamanho e os preços</h6>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                        <th>Tamanho</th>
+                        <th>Valor</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                   <tr>
+                       <th>P</th>
+                       <th>R$ 100</th>
+                   </tr> 
+                   <tr>
+                    <th>M</th>
+                    <th>R$ 200</th>
+                </tr> 
+                <tr>
+                    <th>G</th>
+                    <th>R$ 300</th>
+                </tr>
+                 </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
     <script src="./bootstrap/js/bootstrap.bundle.min.js" ></script>
 </body>
