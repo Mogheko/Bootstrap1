@@ -1,4 +1,47 @@
 .card{
-    width:33%;
+    width:20%;
     float: left;
+    margin-left: 20px;
+}
+
+.btn-2{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btn-2:hover img{
+    -webkit-transform: scale(0.1);
+    transform: scale(0.9);
+ }
+
+ .nav-2{
+    border-top: 1px solid #d4d4d4;
+    border-bottom: 1px solid #d4d4d4;
+ }
+ .header{
+     margin: 20px;
+ }
+
+ .img-edit{
+     width: 12%;
+ }
+ .img-edit-2{
+    width:50%;
+    float: left;
+}
+.a-link-1{
+    color: black;
 }
